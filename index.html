@@ -1,262 +1,618 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Libiya Joseph | Sr DevOps Engineer</title>
-  <meta name="description" content="Sr DevOps Engineer portfolio: GCP/GKE, GitOps (Flux), GitLab CI/CD, Terraform, AWS, Platform Engineering." />
-  <link rel="stylesheet" href="assets/style.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-</head>
-
-<body>
-  <header class="container">
-    <nav class="nav">
-      <a class="logo" href="#top">Libiya Joseph</a>
-      <div class="links">
-        <a href="#projects">Projects</a>
-        <a href="#experience">Experience</a>
-        <a href="#certifications">Certifications</a>
-        <a href="#skills">Skills</a>
-        <a href="#contact">Contact</a>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Libiya Joseph | DevOps Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <a class="logo" href="#home">L<span>.</span></a>
+      <div class="hdr-r">
+        <nav>
+          <a href="#home">Home</a><a href="#about">About</a
+          ><a href="#projects">Projects</a><a href="#experience">Experience</a
+          ><a href="#contact">Contact</a>
+        </nav>
+        <a
+          class="pill dl"
+          href="assets/Libiya-Joseph.pdf"
+          download
+          >Download resume ↓</a
+        ><a class="pill" href="#contact">Let's connect ↗</a>
       </div>
-    </nav>
-
-    <section class="hero" id="top">
-      <div>
-        <p class="badge">Sr DevOps Engineer • 4+ years</p>
-        <h1>Building reliable platforms with GitOps, Kubernetes, and Cloud.</h1>
-        <p class="subtitle">
-          I design and operate production-grade infrastructure using <strong>GCP (GKE)</strong>, <strong>Flux GitOps</strong>,
-          <strong>GitLab CI/CD</strong>, <strong>Terraform</strong>, and <strong>AWS</strong>.
-          I focus on platform engineering, secure automation, and measurable reliability.
+    </header>
+    <main>
+      <section class="hero" id="home">
+        <small>● DEVOPS ENGINEER · CLOUD · PLATFORM</small>
+        <div class="hero-flex">
+          <h1>Building reliable<br />cloud <em>foundations.</em></h1>
+          <p>
+            Designing and operating cloud-native infrastructure, automated
+            delivery workflows and dependable platforms for modern software
+            teams.
+          </p>
+        </div>
+        <div class="meta">
+          GCP / AWS　 ·　 KUBERNETES　 ·　 TERRAFORM　 ·　 GITOPS & CI/CD　 ·　
+          INDIA / REMOTE
+        </div>
+      </section>
+      <section class="split section" id="about">
+        <div class="aside">
+          <label>01 / ABOUT</label>
+          <figure class="portrait">
+            <img
+              src="assets/libiya.jpg"
+              alt="Portrait of Libiya Joseph"
+              loading="lazy"
+              onerror="this.parentNode.remove()"
+            />
+          </figure>
+        </div>
+        <div>
+          <h2>Good infrastructure makes great software <em>possible.</em></h2>
+          <p>
+            I'm a DevOps Engineer with 4+ years of experience designing,
+            automating and supporting cloud infrastructure across GCP and AWS.
+            My work spans Kubernetes, GitOps, CI/CD, infrastructure as code and
+            cloud operations, with a focus on secure and reliable delivery.
+          </p>
+          <a
+            class="under"
+            href="assets/Libiya-Joseph.pdf"
+            download
+            >Download resume (PDF) ↓</a
+          >
+        </div>
+      </section>
+      <section class="section" id="projects">
+        <div class="section-head">
+          <label>02 / SELECTED PROJECTS</label>
+          <p>A selection of cloud engineering and web work.</p>
+        </div>
+        <article class="project">
+          <b class="num">01</b>
+          <div>
+            <small>CLOUD PLATFORM · GITOPS</small>
+            <h3>GKE Cloud-Native Application Platform</h3>
+            <p>
+              Built and operated a Kubernetes platform for frontend and backend
+              workloads. Implemented Flux CD and HelmRelease for GitOps
+              deployments, GitLab CI/CD with Artifact Registry, and APISIX with
+              Gateway API and Google-managed certificates for secure external
+              access.
+            </p>
+            <div class="tags">
+              GKE · Kubernetes · Flux CD · Helm · GitLab CI/CD · APISIX
+            </div>
+          </div>
+          <div class="visual">
+            <b>GitLab CI/CD</b>↓<b>Artifact Registry</b>↓<b class="mint"
+              >Flux CD · GKE</b
+            >↓<b>APISIX · Services</b>
+          </div>
+        </article>
+        <article class="project">
+          <b class="num">02</b>
+          <div>
+            <small>SECURITY · DEVSECOPS</small>
+            <h3>Kubernetes Security &amp; DevSecOps Platform</h3>
+            <p>
+              Applied least-privilege namespace RBAC, Kyverno policy controls
+              and trusted-image workflows with Binary Authorization. Integrated
+              Secret Manager and SOPS with Cloud KMS for secure,
+              GitOps-compatible secret management.
+            </p>
+            <div class="tags">
+              RBAC · Kyverno · Binary Authorization · SOPS · Cloud KMS
+            </div>
+          </div>
+          <div class="visual security">
+            <strong>◇</strong><b>SECURE BY DEFAULT</b
+            ><small>POLICY · IDENTITY · SECRETS</small>
+          </div>
+        </article>
+        <article class="project">
+          <b class="num">03</b>
+          <div>
+            <small>WEB DESIGN · HEALTHCARE</small>
+            <h3>Hospital Website</h3>
+            <p>
+              Designed a responsive hospital website with a clean, accessible
+              interface and teal brand palette (#00B8B1), organizing hospital
+              information, departments, doctors, services, facilities, gallery
+              and contact details.
+            </p>
+            <div class="tags">
+              Responsive UI · HTML · CSS · JavaScript · #00B8B1
+            </div>
+          </div>
+          <div class="visual hospital">
+            <strong>✚</strong><b>CARE. CLARITY. CONFIDENCE.</b
+            ><small>HEALTHCARE WEBSITE</small>
+          </div>
+        </article>
+        <article class="project">
+          <b class="num">04</b>
+          <div>
+            <small>GCP · CLOUD INFRASTRUCTURE</small>
+            <h3>GCP Application &amp; Infrastructure Platform</h3>
+            <p>
+              Deployed containerized application services with Cloud Run and
+              supported PostgreSQL infrastructure on Compute Engine. Worked with
+              secure connectivity, Cloud Armor, load balancing, Cloud DNS,
+              monitoring and operational troubleshooting.
+            </p>
+            <div class="tags">
+              Cloud Run · Compute Engine · PostgreSQL · Cloud Armor · Cloud DNS
+            </div>
+          </div>
+          <div class="visual cloud">
+            <strong>☁</strong><b>APPLICATION · NETWORK · DATA</b>
+          </div>
+        </article>
+        <p class="note">
+          Project descriptions are intentionally high-level and avoid
+          confidential employer or client information.
         </p>
-
-        <div class="cta">
-          <a class="btn primary" href="#projects">View Projects</a>
-          <a class="btn" href="https://github.com/jlibiya" target="_blank" rel="noreferrer">GitHub</a>
-          <a class="btn" href="https://www.linkedin.com/in/libiya-joseph/" target="_blank" rel="noreferrer">LinkedIn</a>
+      </section>
+      <section class="split section shade" id="experience">
+        <label>03 / EXPERIENCE</label>
+        <div class="timeline">
+          <article>
+            <div>
+              <small>NOV 2023 — PRESENT</small>
+              <h3>Sr DevOps Engineer</h3>
+              <p>Cloudium Software</p>
+            </div>
+            <div class="detail">
+              <ul>
+                <li>
+                  Architect and operate production-grade GKE clusters, using
+                  GitOps (Flux CD, ArgoCD and Helm) to standardize deployments
+                  and reduce failures.
+                </li>
+                <li>
+                  Design GitLab CI/CD pipelines for container builds, image
+                  promotion and automated rollbacks, cutting deployment time and
+                  manual steps.
+                </li>
+                <li>
+                  Automate infrastructure provisioning and cluster maintenance,
+                  and use Prometheus and Grafana for monitoring and alerting.
+                </li>
+                <li>
+                  Configure APISIX API Gateway and Gateway API with Cloud Load
+                  Balancing and Google-managed certificates for secure external
+                  access.
+                </li>
+                <li>
+                  Work with developers to containerize applications and apply
+                  deployment best practices; mentor junior engineers on
+                  Kubernetes and GitOps.
+                </li>
+              </ul>
+              <div class="tags">
+                GKE · Kubernetes · Flux CD · ArgoCD · Helm · GitLab CI/CD ·
+                Prometheus · Grafana · APISIX
+              </div>
+            </div>
+          </article>
+          <article>
+            <div>
+              <small>MAR 2021 — SEP 2022</small>
+              <h3>DevOps Engineer</h3>
+              <p>Avasoft</p>
+            </div>
+            <div class="detail">
+              <ul>
+                <li>
+                  Designed AWS architecture for a lift-and-shift migration, the
+                  first stage of the client's move to the cloud.
+                </li>
+                <li>
+                  Provisioned infrastructure with Terraform and Ansible,
+                  coordinated with GitLab, and cut monthly costs by $400 by
+                  removing unused servers and databases.
+                </li>
+                <li>
+                  Built and maintained automated CI/CD pipelines with Jenkins
+                  and GitLab CI/CD, reducing human error and speeding up
+                  production releases.
+                </li>
+                <li>
+                  Monitored and improved cloud infrastructure on AWS, and
+                  maintained 99% uptime across a network of Linux servers.
+                </li>
+              </ul>
+              <div class="tags">
+                AWS · Terraform · Ansible · Jenkins · GitLab CI/CD · Linux
+              </div>
+            </div>
+          </article>
         </div>
-
-        <div class="stats">
-          <div class="stat">
-            <div class="stat-num">4+</div>
-            <div class="stat-label">Years Experience</div>
-          </div>
-          <div class="stat">
-            <div class="stat-num">GKE</div>
-            <div class="stat-label">Kubernetes at scale</div>
-          </div>
-          <div class="stat">
-            <div class="stat-num">GitOps</div>
-            <div class="stat-label">Flux-based delivery</div>
+      </section>
+      <section class="split section">
+        <label>04 / TOOLKIT</label>
+        <div class="skills">
+          <article>
+            <b>Cloud</b>
+            <ul class="icons">
+              <li>
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/googlecloud/googlecloud-original.svg"
+                  alt=""
+                  loading="lazy"
+                  onerror="this.outerHTML = '<span class=mono>GC</span>'"
+                /><span>GCP</span>
+              </li>
+              <li>
+                <img
+                  src="assets/aws.svg"
+                  alt=""
+                  loading="lazy"
+                  onerror="this.outerHTML = '<span class=mono>AW</span>'"
+                /><span>AWS</span>
+              </li>
+            </ul>
+          </article>
+          <article>
+            <b>Containers &amp; Orchestration</b>
+            <ul class="icons">
+              <li>
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/googlecloud/googlecloud-original.svg"
+                  alt=""
+                  loading="lazy"
+                  onerror="this.outerHTML = '<span class=mono>GC</span>'"
+                /><span>GKE</span>
+              <li>
+                <img
+                  src="assets/kubernetes.svg"
+                  alt=""
+                  loading="lazy"
+                  onerror="this.outerHTML = '<span class=mono>K8</span>'"
+                /><span>Kubernetes</span>
+              </li>
+              <li>
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/docker/docker-original.svg"
+                  alt=""
+                  loading="lazy"
+                  onerror="this.outerHTML = '<span class=mono>Do</span>'"
+                /><span>Docker</span>
+              </li>
+              <li>
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/helm/helm-original.svg"
+                  alt=""
+                  loading="lazy"
+                  onerror="this.outerHTML = '<span class=mono>He</span>'"
+                /><span>Helm</span>
+              </li>
+              <li>
+                <img
+                  src="assets/aws.svg"
+                  alt=""
+                  loading="lazy"
+                  onerror="this.outerHTML = '<span class=mono>AW</span>'"
+                /><span>Amazon ECS</span>
+              </li>
+              <li>
+                <img
+                  src="assets/aws.svg"
+                  alt=""
+                  loading="lazy"
+                  onerror="this.outerHTML = '<span class=mono>AW</span>'"
+                /><span>Amazon ECS</span>
+              </li>
+            </ul>
+          </article>
+          <article>
+            <b>Infrastructure as Code</b>
+            <ul class="icons">
+              <li>
+                <img
+                  src="assets/aws.svg"
+                  alt=""
+                  loading="lazy"
+                  onerror="this.outerHTML = '<span class=mono>AW</span>'"
+                /><span>AWS CloudFormation</span>
+              </li>
+              <li>
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/terraform/terraform-original.svg"
+                  alt=""
+                  loading="lazy"
+                  onerror="this.outerHTML = '<span class=mono>Te</span>'"
+                /><span>Terraform</span>
+              </li>
+            </ul>
+          </article>
+          <article>
+            <b>Monitoring and Observability</b>
+            <ul class="icons">
+              <li>
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/prometheus/prometheus-original.svg"
+                  alt=""
+                  loading="lazy"
+                  onerror="this.outerHTML = '<span class=mono>Pr</span>'"
+                /><span>Prometheus</span>
+              </li>
+              <li>
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/grafana/grafana-original.svg"
+                  alt=""
+                  loading="lazy"
+                  onerror="this.outerHTML = '<span class=mono>Gr</span>'"
+                /><span>Grafana</span>
+              </li>
+              <li>
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/googlecloud/googlecloud-original.svg"
+                  alt=""
+                  loading="lazy"
+                  onerror="this.outerHTML = '<span class=mono>Go</span>'"
+                /><span>Google Cloud Monitoring &amp; Logging</span>
+              </li>
+            </ul>
+          </article>
+          <article>
+            <b>CI/CD and GitOps</b>
+            <ul class="icons">
+              <li>
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/gitlab/gitlab-original.svg"
+                  alt=""
+                  loading="lazy"
+                  onerror="this.outerHTML = '<span class=mono>Gi</span>'"
+                /><span>GitLab CI/CD</span>
+              </li>
+              <li>
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/github/github-original.svg"
+                  alt=""
+                  loading="lazy"
+                  onerror="this.outerHTML = '<span class=mono>Gi</span>'"
+                /><span>GitHub Workflows</span>
+              </li>
+              <li>
+                <img
+                  src="assets/flux-cd.svg"
+                  alt=""
+                  loading="lazy"
+                  onerror="this.outerHTML = '<span class=mono>Fl</span>'"
+                /><span>Flux CD</span>
+              </li>
+              <li>
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/argocd/argocd-original.svg"
+                  alt=""
+                  loading="lazy"
+                  onerror="this.outerHTML = '<span class=mono>Ar</span>'"
+                /><span>Argo CD</span>
+              </li>
+              <li>
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/helm/helm-original.svg"
+                  alt=""
+                  loading="lazy"
+                  onerror="this.outerHTML = '<span class=mono>He</span>'"
+                /><span>Helm Releases</span>
+              </li>
+            </ul>
+          </article>
+          <article>
+            <b>Security</b>
+            <ul class="icons">
+              <li>
+                <img
+                  src="assets/kubernetes.svg"
+                  alt=""
+                  loading="lazy"
+                  onerror="this.outerHTML = '<span class=mono>K8</span>'"
+                /><span>RBAC</span>
+              </li>
+              <li>
+                <img
+                  src="assets/kyverno.svg"
+                  alt=""
+                  loading="lazy"
+                  onerror="this.outerHTML = '<span class=mono>Ky</span>'"
+                /><span>Kyverno</span>
+              </li>
+              <li>
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/helm/helm-original.svg"
+                  alt=""
+                  loading="lazy"
+                  onerror="this.outerHTML = '<span class=mono>He</span>'"
+                /><span>Helm SOPS</span>
+              </li>
+              <li>
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/googlecloud/googlecloud-original.svg"
+                  alt=""
+                  loading="lazy"
+                  onerror="this.outerHTML = '<span class=mono>Go</span>'"
+                /><span>Google KMS</span>
+              </li>
+            </ul>
+          </article>
+          <article>
+            <b>OS and Scripting</b>
+            <ul class="icons">
+              <li>
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/linux/linux-original.svg"
+                  alt=""
+                  loading="lazy"
+                  onerror="this.outerHTML = '<span class=mono>Li</span>'"
+                /><span>Linux</span>
+              </li>
+              <li>
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/bash/bash-original.svg"
+                  alt=""
+                  loading="lazy"
+                  onerror="this.outerHTML = '<span class=mono>Sh</span>'"
+                /><span>Shell scripting</span>
+              </li>
+              <li>
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/python/python-original.svg"
+                  alt=""
+                  loading="lazy"
+                  onerror="this.outerHTML = '<span class=mono>Py</span>'"
+                /><span>Python</span>
+              </li>
+            </ul>
+          </article>
+        </div>
+      </section>
+      <section class="split section shade" id="certifications">
+        <label>05 / CERTIFICATIONS</label>
+        <div class="certs">
+          <h2>Licenses &amp; <em>certifications</em></h2>
+          <div class="lic">
+            <img
+              class="lic-logo"
+              src="assets/gcp-logo.png"
+              alt="Google Cloud"
+            />
+            <div>
+              <h3>Associate Cloud Engineer Certification</h3>
+              <p class="dates">Issued Jun 2025 · Expires Jun 2028</p>
+              <div class="file">
+                <a href="assets/AssociateCloudEngineer.pdf" download
+                >Associate Cloud Engineer Certification ↓</a
+              >
+            </div>
           </div>
         </div>
-      </div>
-
-      <aside class="card">
-        <h2>Quick Profile</h2>
-        <ul class="clean">
-          <li><strong>Focus:</strong> Platform Engineering, CI/CD, GitOps, IaC</li>
-          <li><strong>Cloud:</strong> GCP, AWS</li>
-          <li><strong>Kubernetes:</strong> GKE, Helm, Ingress, RBAC</li>
-          <li><strong>IaC:</strong> Terraform (modules, environments)</li>
-          <li><strong>CI/CD:</strong> GitLab pipelines, secure automation</li>
-        </ul>
-        <a class="btn full" href="Libiya_Joseph.pdf" target="_blank" rel="noreferrer">Download Resume</a>
-      </aside>
-    </section>
-  </header>
-
-  <main class="container">
-    <!-- PROJECTS -->
-    <section id="projects" class="section">
-      <div class="section-head">
-        <h2>Featured Projects</h2>
-      </div>
-
-      <div class="grid">
-        <article class="project card">
-          <h3>GitOps on GKE with Flux</h3>
-          <p class="muted">GCP • GKE • Flux • Helm • Policy & RBAC</p>
-          <ul>
-            <li>Implemented Flux GitOps for multi-env deployments (dev/stage/prod).</li>
-            <li>Standardized Helm releases and versioned app/platform configs.</li>
-            <li>Improved deployment consistency and rollback speed.</li>
-          </ul>
-          <div class="chips">
-            <span>Flux</span><span>GKE</span><span>Helm</span><span>GitOps</span>
-          </div>
-          <div class="actions">
-            <a class="btn" href="projects/gke-gitops-flux.md">Case Study</a>
-            <a class="btn" href="https://github.com/<your-username>/<repo-name>" target="_blank" rel="noreferrer">Code</a>
-          </div>
-        </article>
-
-        <article class="project card">
-          <h3>GitLab CI/CD + Terraform Delivery</h3>
-          <p class="muted">GitLab • Terraform • AWS/GCP • Security</p>
-          <ul>
-            <li>Built pipeline templates for plan/apply with manual approvals.</li>
-            <li>Added drift detection and environment promotion workflows.</li>
-            <li>Reduced provisioning errors via reusable Terraform modules.</li>
-          </ul>
-          <div class="chips">
-            <span>GitLab CI</span><span>Terraform</span><span>IaC</span><span>DevSecOps</span>
-          </div>
-          <div class="actions">
-            <a class="btn" href="projects/gitlab-cicd-terraform.md">Case Study</a>
-            <a class="btn" href="https://github.com/<your-username>/<repo-name>" target="_blank" rel="noreferrer">Code</a>
-          </div>
-        </article>
-
-        <article class="project card">
-          <h3>Platform Engineering Starter Kit</h3>
-          <p class="muted">Kubernetes • Observability • Golden Paths</p>
-          <ul>
-            <li>Created a “golden path” template for services: deploy, monitor, alert.</li>
-            <li>Standardized ingress, secrets patterns, and CI checks.</li>
-            <li>Improved onboarding time for new services/teams.</li>
-          </ul>
-          <div class="chips">
-            <span>Platform</span><span>Templates</span><span>Reliability</span><span>DX</span>
-          </div>
-          <div class="actions">
-            <a class="btn" href="projects/platform-engineering.md">Case Study</a>
-            <a class="btn" href="https://github.com/<your-username>/<repo-name>" target="_blank" rel="noreferrer">Code</a>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <!-- EXPERIENCE -->
-    <section id="experience" class="section">
-      <div class="section-head">
-        <h2>Experience</h2>
-      </div>
-
-      <div class="timeline">
-        <div class="timeline-item card">
-          <div class="timeline-top">
-            <h3>Sr DevOps Engineer</h3>
-            <span class="muted">Cloudium • Nov 2023 – Present</span>
-          </div>
-          <ul>
-            <li>Architected and managed production-grade GKE clusters using GitOps practices to standardise deployments and enhance reliability.</li>
-            <li>Designed and optimised GitLab CI/CD pipelines for container builds, image promotion, and automated rollbacks, enhancing deployment efficiency and minimising manual interventions.</li>
-            <li>Spearheaded automation of infrastructure provisioning and cluster maintenance to enhance reliability and streamline recovery processes.</li>
-            <li>Created Terraform modules for reusable infrastructure; supported multi-account/multi-project setups.</li>
-            <li>Containerised applications to enhance deployment efficiency while mentoring junior engineers in Kubernetes, GitOps, and related technologies.</li>
-          </ul>
+      </section>
+      <section class="contact" id="contact">
+        <div class="contact-hero">
+          <small>CONTACT · HIRE · COLLABORATE</small>
+          <h2>Let's build<br />something <em>reliable.</em></h2>
+          <p>
+            Cloud infrastructure, DevOps automation and platform engineering for
+            teams that care about dependable delivery.
+          </p>
         </div>
-
-        <div class="timeline-item card">
-          <div class="timeline-top">
-            <h3>DevOps Engineer</h3>
-            <span class="muted">Avasoft • Mar 2021 – Sep 2022</span>
+        <div class="contact-grid">
+          <div>
+            <h3>Direct lines</h3>
+            <p>
+              Prefer a quick conversation? Email works best for opportunities,
+              project briefs and collaboration.
+            </p>
+            <a class="info" href="mailto:jlibiya2017@gmail.com"
+              ><i>✉</i
+              ><span><small>EMAIL</small><b>jlibiya2017@gmail.com</b></span
+              ><strong>↗</strong></a
+            >
+            <div class="info">
+              <i>⌖</i
+              ><span
+                ><small>LOCATION</small
+                ><b>Kochi, India · Remote worldwide</b></span
+              >
+            </div>
+            <div class="availability">
+              <small>● CURRENTLY OPEN TO RELEVANT OPPORTUNITIES</small>
+              <div>
+                <span>RESPONSE TIME</span
+                ><b>Usually within 1–2 business days</b>
+              </div>
+              <div>
+                <span>AVAILABILITY</span><b>DevOps &amp; Cloud roles</b>
+              </div>
+              <div><span>TIMEZONE</span><b>IST (UTC+5:30)</b></div>
+              <p>◷ Replies on business days</p>
+            </div>
+            <div class="social">
+              <small>ELSEWHERE</small
+              ><a
+                href="https://www.linkedin.com/in/libiya-joseph"
+                target="_blank"
+                >in　 LinkedIn ↗</a
+              >
+              <a href="assets/Libiya-Joseph.pdf" download
+                >Resume ↓</a
+              >
+            </div>
           </div>
-          <ul>
-            <li>Designed innovative AWS architectures to streamline initial stages of cloud migration.</li>
-            <li>Optimised service provision through Terraform and Ansible to realise monthly savings of $400.</li>
-            <li>Optimised cloud infrastructure performance on AWS and Jenkins through proactive monitoring and enhancement initiatives.</li>
-            <li>Ensured 99% uptime for Linux server networks by meticulously managing and supporting operations.</li>
-            <li>Established efficient automated CI/​CD pipelines for code deployment, utilising Jenkins and GitLab CI/​CD to ensure reliability and accelerate production processes.</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <!-- CERTS -->
-    <section id="certifications" class="section">
-      <div class="section-head">
-        <h2>Certifications</h2>
-        <!-- <p>Keep this short and verifiable.</p> -->
-      </div>
-
-      <div class="grid-2">
-        <div class="card">
-          <h3>Google Cloud — Associate Cloud Engineer</h3>
-          <p class="muted">Credential ID: <em>309f2e9645774d7a902642ad58cd821e</em></p>
-          <p>Issued - Jun 2025 · Expires - Jun 2028 </p>
-          <p> Skills: Cloud Architecture, Cloud Security, IaC </p>
-          <a class="btn" href="https://www.credly.com/badges/0e194ca2-f18a-4e68-b294-e688edddd190" target="_blank" rel="noreferrer">Verify</a>
-        </div>
-      </div>
-    </section>
-
-    <!-- SKILLS -->
-    <section id="skills" class="section">
-      <div class="section-head">
-        <h2>Skills</h2>
-      </div>
-
-      <div class="skills">
-        <div class="card">
-          <h3>Cloud</h3>
-          <p>GCP (GKE, IAM, VPC, Cloud Monitoring), AWS (VPC, IAM, EKS/EC2 as applicable)</p>
-        </div>
-        <div class="card">
-          <h3>Kubernetes</h3>
-          <p>GKE, Helm, Ingress, RBAC, namespaces, workload identity (as applicable)</p>
-        </div>
-        <div class="card">
-          <h3>GitOps & CI/CD</h3>
-          <p>Flux, GitLab CI/CD, release strategies, approvals, artifact/versioning</p>
-        </div>
-        <div class="card">
-          <h3>Infrastructure as Code</h3>
-          <p>Terraform, modules, environments, state management, CI-driven plan/apply</p>
-        </div>
-        <div class="card">
-          <h3>Platform Engineering</h3>
-          <p>Golden paths, templates, docs, paved roads, developer enablement</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- CONTACT -->
-    <section id="contact" class="section">
-      <div class="section-head">
-        <h2>Contact</h2>
-        <p>Let's connect or discuss opportunities.</p>
-      </div>
-
-      <div class="contact-grid">
-        <!-- LEFT: Social Icons -->
-        <div class="card">
-          <h3>Connect With Me</h3>
-          <div class="social-links">
-            <a href="https://github.com/jlibiya" target="_blank">
-              <i class="fab fa-github"></i> GitHub
-            </a>
-            <a href="https://www.linkedin.com/in/libiya-joseph/" target="_blank">
-              <i class="fab fa-linkedin"></i> LinkedIn
-            </a>
-            <a href="mailto:jlibiya2017@gmail.com">
-              <i class="fas fa-envelope"></i> Email
-            </a>
-          </div>
-        </div>
-        <!-- RIGHT: Contact Form -->
-        <div class="card">
-          <h3>Drop a Message</h3>
-          <form action="https://formspree.io/f/mykdaroo" method="POST" class="contact-form">
-            <input type="text" name="name" placeholder="Your Name" required />
-            <input type="email" name="email" placeholder="Your Email" required />
-            <textarea name="message" rows="4" placeholder="Short Message..." required></textarea>
-            <button type="submit" class="btn primary full">Send Message</button>
+          <form class="message" id="contactForm">
+            <small>PROJECT / CAREER INQUIRY</small>
+            <h3>Send a message</h3>
+            <p>
+              Tell me about the opportunity, timeline and goals — I'll reply
+              with next steps.
+            </p>
+            <div class="form-row">
+              <label
+                >Name<input
+                  name="name"
+                  placeholder="Your name"
+                  required /></label
+              ><label
+                >Email<input
+                  name="email"
+                  type="email"
+                  placeholder="you@company.com"
+                  required
+              /></label>
+            </div>
+            <label
+              >Subject <span>(optional)</span
+              ><input
+                name="subject"
+                placeholder="Opportunity · Project · Collaboration" /></label
+            ><label
+              >Message<textarea
+                name="message"
+                rows="6"
+                placeholder="What are you building? A little context helps..."
+                required
+              ></textarea>
+            </label>
+            <div class="send">
+              <button type="submit">SEND MESSAGE　↗</button
+              ><small
+                >Or email
+                <a href="mailto:jlibiya2017@gmail.com"
+                  >jlibiya2017@gmail.com</a
+                ></small
+              >
+            </div>
+            <p class="form-note">
+              Your email app will open with the message ready to send.
+            </p>
+            <div class="shortcuts">
+              <a href="#projects"
+                ><small>BEFORE YOU WRITE</small><b>Browse recent work ↗</b></a
+              ><a href="https://www.linkedin.com/in/libiya-joseph"
+                ><small>CONNECT</small><b>Find me on LinkedIn ↗</b></a
+              >
+            </div>
           </form>
         </div>
-      </div>
-    </section>
-
-    <footer class="footer">
-      <p class="muted small">© <span id="year"></span> Libiya Joseph • Built with GitHub Pages</p>
+      </section>
+    </main>
+    <footer>
+      <a class="logo" href="#home">L<span>.</span></a
+      ><span>© <span id="year"></span> Libiya Joseph</span
+      ><a href="#home">Back to top ↑</a>
     </footer>
-  </main>
-
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
